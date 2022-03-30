@@ -3,7 +3,12 @@
     padding: 0;
 }
 body {
-    background: rgb(5, 50, 50);
+    /*background: rgb(5, 50, 50);*/
+  border: 2px solid black;
+  padding: 25px;
+  background: url(background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 #hexGrid {
   display: flex;
