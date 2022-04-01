@@ -5,10 +5,19 @@
 body {
     /*background: rgb(5, 50, 50);*/
   border: 2px solid black;
-  padding: 25px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: url(background.png);
   background-repeat: no-repeat;
   background-size: auto;
+}
+img {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 90%;
 }
 h1 { font-family: Verdana, Geneva, sans-serif; font-size: 24px;
     font-style: normal; font-variant: normal; font-weight: 700; 
